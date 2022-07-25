@@ -1,0 +1,131 @@
+2018-09-17 17:34:53,401 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-09-17 17:34:53,591 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-09-17 17:34:53,606 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-09-17 17:34:53,700 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-17 17:34:53,700 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-09-17 17:34:53,700 INFO o.a.j.JMeter: java.version=1.8.0_171
+2018-09-17 17:34:53,700 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-09-17 17:34:53,701 INFO o.a.j.JMeter: os.name=Windows 10
+2018-09-17 17:34:53,701 INFO o.a.j.JMeter: os.arch=amd64
+2018-09-17 17:34:53,701 INFO o.a.j.JMeter: os.version=10.0
+2018-09-17 17:34:53,701 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-09-17 17:34:53,702 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-09-17 17:34:53,702 INFO o.a.j.JMeter: Available Processors =4
+2018-09-17 17:34:53,736 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-09-17 17:34:53,737 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-09-17 17:34:53,737 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-4.0\apache-jmeter-4.0
+2018-09-17 17:34:53,737 INFO o.a.j.JMeter: user.dir  =C:\apache-jmeter-4.0\apache-jmeter-4.0\bin
+2018-09-17 17:34:53,738 INFO o.a.j.JMeter: PWD       =C:\apache-jmeter-4.0\apache-jmeter-4.0\bin
+2018-09-17 17:34:53,743 INFO o.a.j.JMeter: IP: 192.168.0.103 Name: LAPTOP-CVQUVMQF FullName: LAPTOP-CVQUVMQF
+2018-09-17 17:34:54,982 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-09-17 17:34:55,206 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-09-17 17:34:55,207 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-09-17 17:34:55,941 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-09-17 17:34:58,588 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-17 17:34:58,588 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-17 17:35:04,088 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-17 17:35:04,089 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-17 17:35:04,089 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-17 17:35:04,090 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-17 17:35:04,090 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-09-17 17:35:04,090 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-09-17 17:35:04,829 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2018-09-17 17:35:05,990 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre1.8.0_171\bin\keytool'
+2018-09-17 17:35:05,991 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\proxyserver.jks
+2018-09-17 17:35:06,327 INFO o.a.j.s.FileServer: Default base='C:\apache-jmeter-4.0\apache-jmeter-4.0\bin'
+2018-09-17 17:35:08,210 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-09-17 17:35:08,211 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-09-17 17:35:08,211 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-09-17 17:35:08,211 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-09-17 19:08:14,374 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\templates\templates.xml
+2018-09-17 19:15:39,386 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-17 19:15:39,386 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-17 19:15:39,390 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-17 19:15:39,426 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-09-17 19:15:40,071 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : users
+2018-09-17 19:15:40,071 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group users.
+2018-09-17 19:15:40,071 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-17 19:15:40,075 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=20 perThread=2000.0 delayedStart=false
+2018-09-17 19:15:40,079 INFO o.a.j.t.JMeterThread: Thread started: users 1-1
+2018-09-17 19:15:40,083 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-09-17 19:15:40,083 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-17 19:15:40,195 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-CVQUVMQF
+2018-09-17 19:15:40,250 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-09-17 19:15:40,846 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-09-17 19:15:40,866 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-09-17 19:15:40,870 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-09-17 19:15:42,079 INFO o.a.j.t.JMeterThread: Thread started: users 1-2
+2018-09-17 19:15:42,623 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-09-17 19:15:42,627 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-09-17 19:15:42,627 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-09-17 19:15:44,084 INFO o.a.j.t.JMeterThread: Thread started: users 1-3
+2018-09-17 19:15:45,552 INFO o.a.j.t.JMeterThread: Thread is done: users 1-3
+2018-09-17 19:15:45,552 INFO o.a.j.t.JMeterThread: Thread finished: users 1-3
+2018-09-17 19:15:45,742 INFO o.a.j.t.JMeterThread: Thread is done: users 1-1
+2018-09-17 19:15:45,743 INFO o.a.j.t.JMeterThread: Thread finished: users 1-1
+2018-09-17 19:15:45,787 INFO o.a.j.t.JMeterThread: Thread is done: users 1-2
+2018-09-17 19:15:45,788 INFO o.a.j.t.JMeterThread: Thread finished: users 1-2
+2018-09-17 19:15:46,079 INFO o.a.j.t.JMeterThread: Thread started: users 1-4
+2018-09-17 19:15:47,531 INFO o.a.j.t.JMeterThread: Thread is done: users 1-4
+2018-09-17 19:15:47,531 INFO o.a.j.t.JMeterThread: Thread finished: users 1-4
+2018-09-17 19:15:48,092 INFO o.a.j.t.JMeterThread: Thread started: users 1-5
+2018-09-17 19:15:49,579 INFO o.a.j.t.JMeterThread: Thread is done: users 1-5
+2018-09-17 19:15:49,579 INFO o.a.j.t.JMeterThread: Thread finished: users 1-5
+2018-09-17 19:15:50,095 INFO o.a.j.t.JMeterThread: Thread started: users 1-6
+2018-09-17 19:15:51,638 INFO o.a.j.t.JMeterThread: Thread is done: users 1-6
+2018-09-17 19:15:51,638 INFO o.a.j.t.JMeterThread: Thread finished: users 1-6
+2018-09-17 19:15:52,095 INFO o.a.j.t.JMeterThread: Thread started: users 1-7
+2018-09-17 19:15:53,607 INFO o.a.j.t.JMeterThread: Thread is done: users 1-7
+2018-09-17 19:15:53,607 INFO o.a.j.t.JMeterThread: Thread finished: users 1-7
+2018-09-17 19:15:54,095 INFO o.a.j.t.JMeterThread: Thread started: users 1-8
+2018-09-17 19:15:55,517 INFO o.a.j.t.JMeterThread: Thread is done: users 1-8
+2018-09-17 19:15:55,518 INFO o.a.j.t.JMeterThread: Thread finished: users 1-8
+2018-09-17 19:15:56,095 INFO o.a.j.t.JMeterThread: Thread started: users 1-9
+2018-09-17 19:15:57,668 INFO o.a.j.t.JMeterThread: Thread is done: users 1-9
+2018-09-17 19:15:57,669 INFO o.a.j.t.JMeterThread: Thread finished: users 1-9
+2018-09-17 19:15:58,095 INFO o.a.j.t.JMeterThread: Thread started: users 1-10
+2018-09-17 19:15:59,536 INFO o.a.j.t.JMeterThread: Thread is done: users 1-10
+2018-09-17 19:15:59,536 INFO o.a.j.t.JMeterThread: Thread finished: users 1-10
+2018-09-17 19:15:59,536 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-17 19:15:59,536 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-09-17 19:17:02,320 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-17 19:17:02,320 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-17 19:17:02,324 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-09-17 19:17:02,584 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : users
+2018-09-17 19:17:02,588 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group users.
+2018-09-17 19:17:02,588 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-17 19:17:02,588 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=20 perThread=2000.0 delayedStart=false
+2018-09-17 19:17:02,588 INFO o.a.j.t.JMeterThread: Thread started: users 1-1
+2018-09-17 19:17:02,592 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-09-17 19:17:02,592 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-17 19:17:04,124 INFO o.a.j.t.JMeterThread: Thread is done: users 1-1
+2018-09-17 19:17:04,125 INFO o.a.j.t.JMeterThread: Thread finished: users 1-1
+2018-09-17 19:17:04,593 INFO o.a.j.t.JMeterThread: Thread started: users 1-2
+2018-09-17 19:17:06,173 INFO o.a.j.t.JMeterThread: Thread is done: users 1-2
+2018-09-17 19:17:06,173 INFO o.a.j.t.JMeterThread: Thread finished: users 1-2
+2018-09-17 19:17:06,596 INFO o.a.j.t.JMeterThread: Thread started: users 1-3
+2018-09-17 19:17:07,897 INFO o.a.j.t.JMeterThread: Thread is done: users 1-3
+2018-09-17 19:17:07,897 INFO o.a.j.t.JMeterThread: Thread finished: users 1-3
+2018-09-17 19:17:08,597 INFO o.a.j.t.JMeterThread: Thread started: users 1-4
+2018-09-17 19:17:09,962 INFO o.a.j.t.JMeterThread: Thread is done: users 1-4
+2018-09-17 19:17:09,962 INFO o.a.j.t.JMeterThread: Thread finished: users 1-4
+2018-09-17 19:17:10,597 INFO o.a.j.t.JMeterThread: Thread started: users 1-5
+2018-09-17 19:17:12,113 INFO o.a.j.t.JMeterThread: Thread is done: users 1-5
+2018-09-17 19:17:12,114 INFO o.a.j.t.JMeterThread: Thread finished: users 1-5
+2018-09-17 19:17:12,596 INFO o.a.j.t.JMeterThread: Thread started: users 1-6
+2018-09-17 19:17:14,160 INFO o.a.j.t.JMeterThread: Thread is done: users 1-6
+2018-09-17 19:17:14,161 INFO o.a.j.t.JMeterThread: Thread finished: users 1-6
+2018-09-17 19:17:14,597 INFO o.a.j.t.JMeterThread: Thread started: users 1-7
+2018-09-17 19:17:15,973 INFO o.a.j.t.JMeterThread: Thread is done: users 1-7
+2018-09-17 19:17:15,973 INFO o.a.j.t.JMeterThread: Thread finished: users 1-7
+2018-09-17 19:17:16,601 INFO o.a.j.t.JMeterThread: Thread started: users 1-8
+2018-09-17 19:17:17,956 INFO o.a.j.t.JMeterThread: Thread is done: users 1-8
+2018-09-17 19:17:17,956 INFO o.a.j.t.JMeterThread: Thread finished: users 1-8
+2018-09-17 19:17:18,601 INFO o.a.j.t.JMeterThread: Thread started: users 1-9
+2018-09-17 19:17:19,996 INFO o.a.j.t.JMeterThread: Thread is done: users 1-9
+2018-09-17 19:17:19,996 INFO o.a.j.t.JMeterThread: Thread finished: users 1-9
+2018-09-17 19:17:20,602 INFO o.a.j.t.JMeterThread: Thread started: users 1-10
+2018-09-17 19:17:21,941 INFO o.a.j.t.JMeterThread: Thread is done: users 1-10
+2018-09-17 19:17:21,941 INFO o.a.j.t.JMeterThread: Thread finished: users 1-10
+2018-09-17 19:17:21,941 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-17 19:17:21,941 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.EditEmployeeTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.EditEmployeeLabel_yoe}" for="yoe" />
+                    <h:inputText id="yoe" value="#{employeeController.selected.yoe}" title="#{bundle.EditEmployeeTitle_yoe}" />
+                    <h:outputLabel value="#{bundle.EditEmployeeLabel_empdept}" for="empdept" />
+                    <h:inputText id="empdept" value="#{employeeController.selected.empdept}" title="#{bundle.EditEmployeeTitle_empdept}" />
+                    <h:outputLabel value="#{bundle.EditEmployeeLabel_empname}" for="empname" />
+                    <h:inputText id="empname" value="#{employeeController.selected.empname}" title="#{bundle.EditEmployeeTitle_empname}" />
+                    <h:outputLabel value="#{bundle.EditEmployeeLabel_id}" for="id" />
+                    <h:inputText id="id" value="#{employeeController.selected.id}" title="#{bundle.EditEmployeeTitle_id}" />
+                </h:panelGrid>
+                <h:commandLink action="#{employeeController.update}" value="#{bundle.EditEmployeeSaveLink}"/>
+                <br />
+                <br />
+                <h:commandLink action="View" value="#{bundle.EditEmployeeViewLink}" immediate="true"/>
+                <br />
+                <h:commandLink action="#{employeeController.prepareList}" value="#{bundle.EditEmployeeShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:commandLink value="#{bundle.EditEmployeeIndexLink}" action="/index" immediate="true" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
