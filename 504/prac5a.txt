@@ -1,0 +1,63 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package prac5a;
+
+import java.math.BigInteger;
+import java.util.Random;
+import java.util.Scanner;
+
+/**
+ *
+ * @author admin
+ */
+public class Prac5a {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Plain Text: ");
+        BigInteger pt = new BigInteger(sc.next());
+        System.out.println("Enter 2 prime number: ");
+        BigInteger p =new BigInteger(sc.next());
+        BigInteger q =new BigInteger(sc.next());
+        BigInteger n = p.multiply(q);
+        
+        BigInteger one = new BigInteger("1");
+        BigInteger two = p.subtract(one);
+        BigInteger three = q.subtract(one);
+        BigInteger four = two.multiply(three);
+        
+        BigInteger e;
+        do
+        {
+            e = new BigInteger(2*512, new Random());
+        }
+        while((e.compareTo(four) != 1) || (e.gcd(four).compareTo(one)) !=0);
+        System.out.println("Public Key is: " + e);
+        
+        BigInteger d = e.modInverse(four);
+        System.out.println("Private Key is: "+ d);
+        BigInteger ct  = pt.modPow(d,n);
+        System.out.println("Cipher Text is: "+ct);
+        BigInteger pt1 = ct.modPow(d, n);
+        System.out.println("Plain Text is: "+ pt);
+    }
+}
+
+
+OUTPUt:
+Enter Plain Text: 
+1234
+Enter 2 prime number: 
+17
+11
+Public Key is: 162813790860695224340509542772794483062978422917602827011419230301272143789720572372743014471515993108738349652083712165779279268163551337545315557661704169045112243310307861194632707490571997998073966847788104972654842911972101273022186476491971999056661823881206983368455952825838651812090636895246975029563
+Private Key is: 147
+Cipher Text is: 150
+Plain Text is: 1234
+BUILD SUCCESSFUL (total time: 31 seconds)

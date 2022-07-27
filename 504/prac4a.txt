@@ -1,0 +1,81 @@
+\\DES
+
+import java.util.*;
+import javax.crypto.*;
+
+public class Prac4a {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        try {
+        Scanner sc = new Scanner(System.in);
+        String s;
+        System.out.println("Please enter a string:");
+        s=sc.nextLine();
+        KeyGenerator key = KeyGenerator.getInstance("DES");
+        SecretKey sk = key.generateKey();
+        Cipher c = Cipher.getInstance("DES");
+        c.init(Cipher.ENCRYPT_MODE,sk);
+        byte[] encrypted = c.doFinal(s.getBytes());
+        c.init(Cipher.DECRYPT_MODE,sk);
+        byte[] decrypted = c.doFinal(encrypted);
+        
+        System.out.println("ENCRYPTED="+new String(encrypted));
+        System.out.println("DECRYPTED="+new String(decrypted));
+        }
+        catch(Exception e)
+        {
+        System.out.println("Exception="+e);
+                }
+    }
+}
+
+output:
+Please enter a string:
+sayyed rehan ali
+ENCRYPTED=�Z�m79�Ee���w�8L�~
+��
+DECRYPTED=sayyed rehan ali
+BUILD SUCCESSFUL (total time: 7 seconds)
+
+
+\\AES
+
+import java.util.*;
+import javax.crypto.*;
+
+
+public class Prac4a {
+
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        try {
+        Scanner sc = new Scanner(System.in);
+        String s;
+        System.out.println("Please enter a string:");
+        s=sc.nextLine();
+        KeyGenerator key = KeyGenerator.getInstance("AES");
+        SecretKey sk = key.generateKey();
+        Cipher c = Cipher.getInstance("AES");
+        c.init(Cipher.ENCRYPT_MODE,sk);
+        byte[] encrypted = c.doFinal(s.getBytes());
+        c.init(Cipher.DECRYPT_MODE,sk);
+        byte[] decrypted = c.doFinal(encrypted);
+        
+        System.out.println("ENCRYPTED="+new String(encrypted));
+        System.out.println("DECRYPTED="+new String(decrypted));
+        }
+        catch(Exception e)
+        {
+        System.out.println("Exception="+e);
+                }
+    }
+}
+
+output:
+Please enter a string:
+Sayyed rehan ali
+ENCRYPTED=y��Jq�˟ޤ�ډ�(�Z�dk��l!��I4S
+DECRYPTED=Sayyed rehan ali
+BUILD SUCCESSFUL (total time: 12 seconds)
