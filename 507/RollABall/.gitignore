@@ -40,3 +40,5 @@ crashlytics-build.properties
 */[Mm]emoryCaptures/
 
 /Temp/UnityLockfile
+
+/.vs/RollABall/v15/Server/sqlite3/db.lock
