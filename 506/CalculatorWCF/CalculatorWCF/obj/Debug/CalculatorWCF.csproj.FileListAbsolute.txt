@@ -1,0 +1,7 @@
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\bin\Debug\CalculatorWCF.dll.config
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\bin\Debug\CalculatorWCF.dll
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\bin\Debug\CalculatorWCF.pdb
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\obj\Debug\CalculatorWCF.csprojAssemblyReference.cache
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\obj\Debug\CalculatorWCF.csproj.CoreCompileInputs.cache
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\obj\Debug\CalculatorWCF.dll
+D:\TYCS-40\506\CalculatorWCF\CalculatorWCF\obj\Debug\CalculatorWCF.pdb
