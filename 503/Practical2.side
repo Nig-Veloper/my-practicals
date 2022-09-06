@@ -1,0 +1,21 @@
+{
+  "id": "0021985c-12e2-4a11-ae3b-b82ed7ad15a6",
+  "version": "2.0",
+  "name": "Practical2",
+  "url": "https://www.redbus.in/",
+  "tests": [{
+    "id": "4472cb75-9940-4365-9fa5-d99796d9f467",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "21b333df-80ad-4129-a969-71f6edca2723",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4472cb75-9940-4365-9fa5-d99796d9f467"]
+  }],
+  "urls": [],
+  "plugins": []
+}

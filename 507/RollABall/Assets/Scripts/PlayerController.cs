@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 10;
     private Rigidbody rb;
+
+    public Text scoreText;
+    public int count = 0;
 
     void Start()
     {
@@ -23,4 +27,13 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(movement * speed);
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            Destroy(other.gameObject);
+            count++;
+            scoreText.text = count.ToString();
+        }
+    }
 }
