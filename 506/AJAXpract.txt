@@ -1,0 +1,6 @@
+506 Practical 
+
+
+
+Aim: Use wcf to create a basic asp .net async javascript and xml (AJAX) service 
+
